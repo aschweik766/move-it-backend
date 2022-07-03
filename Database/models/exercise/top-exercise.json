@@ -5,7 +5,7 @@
         "muscleGroup": ["glute", "core"],
         "position": "side-lying",
         "equipment": [null],
-        "url": null,
+        "url": "https://youtu.be/PoDA3Tf3SXQ",
         "image": null,
         "description": "Begin laying on side with your knees bent and your feet together. Rotate top hip slightly forward while keeping hips stable, lift knee towards ceiling by tightening your glutes."
     },
@@ -15,7 +15,7 @@
         "muscleGroup": ["glute", "core"],
         "equipment": [null],
         "position": "side-lying",
-        "url": null,
+        "url": "https://youtu.be/VSW02_KByuc",
         "image": null,
         "description": "Begin laying on side against the wall with your knees bent and with your feet, hips, shoulders, and head touching the wall. Rotate your top hip slightly forward to bring your hip off of the wall. While keeping hips stable, lift your top knee towards the ceiling by tightening your glute. If you feel your hip touch the wall again, this indicates that your hips were not stable during the exercise."
 
@@ -26,7 +26,7 @@
         "muscleGroup": ["glute", "core", "hamstring"],
         "equipment": [null],
         "position": "hook-lying",
-        "url": null,
+        "url": "https://youtu.be/Tdnfl825tgM",
         "image": null,
         "description": "Begin laying on your back with your knees bent with your arms extended and palms down. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
 
@@ -37,7 +37,7 @@
         "muscleGroup": ["glute", "core"],
         "equipment": [null],
         "position": "side-lying",
-        "url": null,
+        "url": "https://youtu.be/62ZWem7Mk34",
         "image": null,
         "description": "Begin laying on your back with your knees bent and with your elbows bent at your sides. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
 
@@ -48,7 +48,7 @@
         "muscleGroup": ["glute", "core", "hamstring"],
         "equipment": [null],
         "position": "hook-lying",
-        "url": null,
+        "url": "https://youtu.be/F8oP06gu08w",
         "image": null,
         "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
     },
@@ -62,7 +62,174 @@
         "image": null,
         "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
     },
-    
-    
+    {
+        "name": "radial nerve glide elbow bias",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/H2t_Ak1pBeg",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    },
+    {
+        "name": "radial nerve glide shoulder bias",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/FGvaIDUofHk",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    }, 
+    {
+        "name": "radial nerve glide cervical bias",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/zbokLLLjIo0",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    }, 
+    {
+        "name": "median nerve glide wrist bias",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/w0UtpRYEgK0",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    }, 
+    {
+        "name": "median nerve glide elbow bias",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/i-2yDvItiBk",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    }, 
+    {
+        "name": "median nerve glide shoulder bias",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/nBjgUXx9e44",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    }, 
+    {
+        "name": "median nerve glide cervical bias",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/7ho8SD_UeMo",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    }, 
+    {
+        "name": "ulnar nerve glide wrist bias",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/_K-JGGeoHZk",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    }, 
+    {
+        "name": "ulnar nerve glide elbow bias",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/LlGMROzfP4A",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    }, 
+    {
+        "name": "ulnar nerve glide shoulder bias",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/wGeZiQRvLTI",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    },
+    {
+        "name": "ulnar nerve glide cervical bias",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/UyzvkeIjRiY",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    },
+    {
+        "name": "sciatic nerve glide ankle bias",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/ELfEnLaXevE",
+        "image": null,
+        "description": "Lie on your back and lift the leg to be stretched so that the hip is bent to 90 degrees, grasp the back of the thigh with both hands.  Slowly straighten the knee until you feel a deep stretch along the back of your leg, making sure to keep the ankle relaxed.  Once you feel the stretch, begin moving from your ankle, by bending the ankle toward you and then pointing toward the ceiling. Hold for 1 second, then relax. Be careful not to overstretch."
+    },
+    {
+        "name": "sciatic nerve glide knee bias",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/UeKeqaHun_8",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    },
+    {
+        "name": "sciatic nerve glide hip bias",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/UTWt_uHxskM",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    },
+    {
+        "name": "Psoas stretch standing (Psoas, hip, back",
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/TYutEjg2_Tc",
+        "image": null,
+        "description": "Stand with one foot in front of the other with your toes pointed forward. Engage your lower abdominal muscles to tuck your tailbone under. You will feel a stretch in the front of your hip on your stance leg. To feel a deeper stretch, lean your shoulders back and then to the side (if left leg is forward, lean shoulders back and then to the left) you will feel the stretch extend from the front of your hip to behind your belly button."
+    },
+    {
+        "name": "Psoas stretch one step",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/MQFPE7FAGik",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    },
+    {
+        "name": "Psoas stretch in lunge",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://youtu.be/gUyR8b0BNgc",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    }
     
 ]
