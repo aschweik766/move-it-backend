@@ -1,0 +1,68 @@
+[
+    {
+        "name": "clamshells",
+        "joint": ["hip", "knee"],
+        "muscleGroup": ["glute", "core"],
+        "position": "side-lying",
+        "equipment": [null],
+        "url": null,
+        "image": null,
+        "description": "Begin laying on side with your knees bent and your feet together. Rotate top hip slightly forward while keeping hips stable, lift knee towards ceiling by tightening your glutes."
+    },
+    {
+        "name": "clamshells on wall",
+        "joint": ["hip", "knee"],
+        "muscleGroup": ["glute", "core"],
+        "equipment": [null],
+        "position": "side-lying",
+        "url": null,
+        "image": null,
+        "description": "Begin laying on side against the wall with your knees bent and with your feet, hips, shoulders, and head touching the wall. Rotate your top hip slightly forward to bring your hip off of the wall. While keeping hips stable, lift your top knee towards the ceiling by tightening your glute. If you feel your hip touch the wall again, this indicates that your hips were not stable during the exercise."
+
+    },
+    {
+        "name": "bridge elbows extended",
+        "joint": ["hip", "knee"],
+        "muscleGroup": ["glute", "core", "hamstring"],
+        "equipment": [null],
+        "position": "hook-lying",
+        "url": null,
+        "image": null,
+        "description": "Begin laying on your back with your knees bent with your arms extended and palms down. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+
+    },
+    {
+        "name": "bridge elbows bent",
+        "joint": ["hip", "knee"],
+        "muscleGroup": ["glute", "core"],
+        "equipment": [null],
+        "position": "side-lying",
+        "url": null,
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and with your elbows bent at your sides. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+
+    },
+    {
+        "name": "bridge arms crossed",
+        "joint": ["hip", "knee"],
+        "muscleGroup": ["glute", "core", "hamstring"],
+        "equipment": [null],
+        "position": "hook-lying",
+        "url": null,
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    },
+    {
+        "name": "radial nerve glide wrist bias",
+        "joint": ["wrist"],
+        "muscleGroup": [""],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://www.youtube.com/embed/-4Updi3GUKI",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    },
+    
+    
+    
+]
