@@ -7,11 +7,12 @@
         "password": "test1",
         "role": ["PT"],
         "favoritedEx": {
-             "_id": null,
+             "exercise_id": null,
              "name": null,
              "joint": [null],
              "equipment": [null],
              "muscleGroup": [null],
+             "position": null,
              "image": "null",
              "url": "null"
         }
@@ -24,11 +25,12 @@
         "password": "test1",
         "role": ["PT"],
         "favoritedEx": {
-             "_id": null,
+             "exercise_id": null,
              "name": null,
              "joint": [null],
              "equipment": [null],
              "muscleGroup": [null],
+             "position":null,
              "image": "null",
              "url": "null"
         }

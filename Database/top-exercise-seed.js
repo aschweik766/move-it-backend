@@ -1,9 +1,6 @@
-const Exercise = require('../exercise/top-exercise-model');
-const newSeedData = require('../exercise/top-exercise.json')
+const Exercise = require('../models/exercise/top-exercise-model');
+const newSeedData = require('../Database/top-exercise.json')
     console.log(newSeedData);
-
-
-
 
 
 Exercise.deleteMany({})

@@ -1,9 +1,6 @@
-const Users = require('../user/user-model');
-const newSeedData = require('../user/user.json')
+const Users = require('../models/user/user-model');
+const newSeedData = require('../Database/user.json')
     console.log(newSeedData);
-
-
-
 
 
 Users.deleteMany({})

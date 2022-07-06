@@ -2,16 +2,16 @@
 const mongoose = require('mongoose')
 require('dotenv').config();
 
-
 mongoose.Promise = Promise
 
 const mongoURI =
     process.env.NODE_ENV === 'production' 
     ? process.env.DB_URL
-    : process.env.DB_URL
+    : 'mongodb://localhost/moveIt'
+    // : process.env.DEV_DB_URL
     
 
-mongoose.connect(mongoURI)
+mongoose.connect(mongoURI, {useNewUrlParser: true})
     .then((instance)=>
     console.log(`Connected to db: ${instance.connections[0].name}`)
     )
