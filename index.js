@@ -18,8 +18,7 @@ app.use('/public', express.static(__dirname + 'public'))
 app.use(methodOverride('_method'))
 
 app.use(userController)
-
-
+app.use(exerciseController)
 
 const port = process.env.PORT || 3001
 app.listen(port, ()=> {
