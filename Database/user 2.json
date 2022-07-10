@@ -1,0 +1,39 @@
+[
+    { 
+        "firstName": "Ashley",
+        "lastName": "Schweikhard",
+        "username": "testUser1",
+        "email": "aschweikhardwork@gmail.com",
+        "password": "test1",
+        "role": ["PT"],
+        "favoritedEx": {
+             "exercise_id": null,
+             "name": null,
+             "joint": [null],
+             "equipment": [null],
+             "muscleGroup": [null],
+             "position": null,
+             "image": "null",
+             "url": "null"
+        }
+    },
+    { 
+        "firstName": "Ashley",
+        "lastName": "Schweikhard",
+        "username": "testUser2",
+        "email": "aschweikhardwork@gmail.com",
+        "password": "test1",
+        "role": ["PT"],
+        "favoritedEx": {
+             "exercise_id": null,
+             "name": null,
+             "joint": [null],
+             "equipment": [null],
+             "muscleGroup": [null],
+             "position":null,
+             "image": "null",
+             "url": "null"
+        }
+    }
+
+]

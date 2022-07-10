@@ -13,5 +13,18 @@ router.get('/exercises', (req, res) => {
         res.send(data)
     })
 })
+router.get('/exercises/:id', (req, res) => {
+    const results = Exercise.findById({_id: req.params.id})
+    results.then((data) => {
+        res.send(data)
+    })
+})
+
+// router.get('/exercises/:name', (req, res) => {
+//     const results = Exercise.find({name: req.params.name})
+//     results.then((data) => {
+//         res.send(data)
+//     })
+// })
 
 module.exports = router
