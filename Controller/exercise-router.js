@@ -2,11 +2,10 @@ const express = require('express')
 const res = require('express/lib/response')
 const Exercise = require('../models/exercise/top-exercise-model')
 const router = express.Router()
-// const exerciseController = require('./exController')
+const exerciseController = require('./exController')
 
 // router.get('/search', exerciseController.querySearch)
-
-
+// router.get('/search', exerciseController.querySearchName);
 
 // router.get("/", (req, res) => {
 //     const { q } = req.query;
@@ -25,19 +24,19 @@ const router = express.Router()
 //   });
 
 //get all exercises from list:
-router.get("/exercises", (req, res) => {
+router.get("/exercises/", (req, res) => {
     const results = Exercise.find({})
     results.then((data) => { res.send(data) })
    
 })
 
 //get exercises by query
-router.get("/search", (req, res) => {
-    const {q} = req.query
-    const results = Exercise.findOne({"name": q}, )
-    results.then((data) => { res.send(data) })
-   console.log('this is the query: ' + query)
-})
+// router.get("/search", (req, res) => {
+//     const {q} = req.query
+//     const results = Exercise.findOne({"name": q}, )
+//     results.then((data) => { res.send(data) })
+//    console.log('this is the query: ' + query)
+// })
 
 
 
@@ -47,12 +46,19 @@ router.get("/search", (req, res) => {
 
 //get exercises by name
 
-router.get("/exercises-name", (req, res) => {
-    const searchEx = req.query.name
-    const query = {name: {$eq: searchEx}}
-    const result = Exercise.find(query)
-    result.then((data) => { res.send(data) })
-})
+// router.get("/search/", (req, res) => {
+//     const searchEx = req.body.name
+//     const query = {name: {$eq: searchEx}}
+//     const result = Exercise.find(query)
+//     result.then((data) => { res.send(data) })
+// })
+
+// router.get("/exercises-name", (req, res) => {
+//     const searchEx = req.query.name
+//     const query = {name: {$eq: searchEx}}
+//     const result = Exercise.find(query)
+//     result.then((data) => { res.send(data) })
+// })
 
 
 

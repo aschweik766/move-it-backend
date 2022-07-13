@@ -1,5 +1,15 @@
 const Exercise = require('../models/exercise/top-exercise-model')
 
+exports.querySearchName = (exName, done) => {
+  
+  Exercise.find({name: exName}, (error, arrayOfResults) => {
+    if(error){
+      console.log(error)
+    }else{
+      done(null, arrayOfResults)
+    }
+  })
+};
 
 
 
