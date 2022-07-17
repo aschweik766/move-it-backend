@@ -1,4 +1,3 @@
-require('../../models/index');
 require('dotenv').config()
 
 const Profile = require('../../models/profile')
@@ -7,15 +6,18 @@ const User = require('../../models/user/user-model')
 const passport = require('passport')
 const Strategy = require('passport-google-oauth20')
 const GoogleStrategy = Strategy.Strategy
+const GOOGLE_CLIENT_ID = process.env.CLIENT_ID;
+const GOOGLE_CLIENT_SECRET = process.env.CLIENT_SECRET;
 
 passport.use(
     new GoogleStrategy(
       {
-        clientID: process.env.GOOGLE_CLIENT_ID,
-        clientSecret: process.env.GOOGLE_SECRET,
+        clientID: GOOGLE_CLIENT_ID,
+        clientSecret: GOOGLE_CLIENT_SECRET,
         callbackURL: process.env.GOOGLE_CALLBACK,
+        scope: ["profile", "email"],
       },
-      function (accessToken, refreshToken, profile, done) {
+      function (accessToken, refreshToken, profile, cb, done) {
         // a user has logged in with OAuth...
         User.findOne({ googleId: profile.id })
         .then(user => {

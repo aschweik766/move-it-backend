@@ -1,4 +1,4 @@
-const Exercise = require('../models/exercise/top-exercise-model');
+const Exercise = require('../../models/exercise/top-exercise-model');
 const newSeedData = require('../Database/top-exercise.json')
     console.log(newSeedData);
 
