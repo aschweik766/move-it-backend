@@ -11,7 +11,7 @@ const passportStrategy = require('./config/Database/passport')
 const mongoose = require('mongoose')
 const passport = require('passport')
 const bodyparser = require('body-parser');
-const createError = require('http-errors')
+// const createError = require('http-errors')
 
 
 
@@ -35,13 +35,13 @@ app.use(
 app.use(passport.initialize())
 app.use(passport.session())
 
-// app.use(
-// 	cors({
-// 		origin: "http://localhost:3000",
-// 		methods: "GET,POST,PUT,DELETE",
-// 		credentials: true,
-// 	})
-// );
+app.use(
+	cors({
+		origin: "http://localhost:3000",
+		methods: "GET,POST,PUT,DELETE",
+		credentials: true,
+	})
+);
 
 
 //controllers and routes to use

@@ -80,9 +80,39 @@ router.get('/exercises/:id', (req, res) => {
     results.then((data) => {
         res.send(data)
     })
-    .catch(error)
 })
 
+module.exports = router
+
+// router.get('/exercises/name', (req, res) => {
+//     const results = Exercise.find({
+//         $or: [{"name": 'radial nerve glide elbow bias'},
+//             {"name": 'radial nerve glide wrist bias'},
+//             {"name": 'radial nerve glide shoulder bias'},
+//             {"name": 'radial nerve glide cervical bias'},
+//         ]
+//     })
+//     results.then((data) => {
+//         res.send(data)
+//     })
+// })
+
+// router.get('/exercises/name', (req, res) => {
+//     res.render('search', {name: ['clamshells']});
+//     })
+
+// router.get('/exercises/name', (req, res) => {
+//     const results = Exercise.find({name: 'clamshells'}, (error, data) => {
+//         if(error){
+//             console.log(error)
+//         }else{
+//             console.log(data)
+//         }
+//     })
+//     results.then(() => {
+//         res.send(data)
+//     })
+// })
 //------get library----per user login auth
 
 // router.get('/library', async (req, res, next) => {
@@ -116,36 +146,3 @@ router.get('/exercises/:id', (req, res) => {
 //     }
 // })
 
-
-
-module.exports = router
-
-// router.get('/exercises/name', (req, res) => {
-//     const results = Exercise.find({
-//         $or: [{"name": 'radial nerve glide elbow bias'},
-//             {"name": 'radial nerve glide wrist bias'},
-//             {"name": 'radial nerve glide shoulder bias'},
-//             {"name": 'radial nerve glide cervical bias'},
-//         ]
-//     })
-//     results.then((data) => {
-//         res.send(data)
-//     })
-// })
-
-// router.get('/exercises/name', (req, res) => {
-//     res.render('search', {name: ['clamshells']});
-//     })
-
-// router.get('/exercises/name', (req, res) => {
-//     const results = Exercise.find({name: 'clamshells'}, (error, data) => {
-//         if(error){
-//             console.log(error)
-//         }else{
-//             console.log(data)
-//         }
-//     })
-//     results.then(() => {
-//         res.send(data)
-//     })
-// })
