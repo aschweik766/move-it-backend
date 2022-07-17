@@ -1,8 +1,8 @@
 const express = require('express')
 const res = require('express/lib/response')
-const Exercise = require('../models/exercise/top-exercise-model')
+const Exercise = require('../../models/exercise/top-exercise-model')
 const router = express.Router()
-const exerciseController = require('./exController')
+
 
 // router.get('/search', exerciseController.querySearch)
 // router.get('/search', exerciseController.querySearchName);
@@ -81,34 +81,6 @@ router.get('/exercises/:id', (req, res) => {
         res.send(data)
     })
 })
-
-// //search by name for search form:
-// router.get("/exercises/name", async (req, res) => {
-//     try {
-//         const queryChain = function(done) {
-//             const exerciseSearch = "clamshells";
-//                 res.json(Exercise.find({name : {$all: [exerciseSearch]}}))
-//                 .sort({name: 'asc'})
-//                 .limit(2)
-//                 .select('name')
-//                 .exec((error, filteredResults) => {
-//                 if(error){
-//                     console.log(error)
-//                 }else{
-//                     done(null, filteredResults)
-//                 }
-//                 })
-//             };
-//     queryChain()
-//     } catch (error) {
-//         res.status(400).json(error)
-//     }
-
-   
-// })
- 
-
-
 
 module.exports = router
 

@@ -1,14 +1,16 @@
 const { mongo } = require('mongoose')
-const mongoose = require('/Users/aschweikhard/Desktop/general-assembly/project4/move-it-backend/Database/connection')
+const mongoose = require('../../config/Database/connection')
 
 const UsersSchema = new mongoose.Schema(
     {
-        firstName: String,
-        lastName: String,
-        username: String,
         email: String,
-        password: String,
-        role: [String],
+        googleId: String,
+        profile: {
+            type: mongoose.Schema.Types.ObjectId, ref: "Profile"},
+        name: {
+            type: String,
+            required: [true, 'name cannot be empty']
+        },
         favoritedEx: {
              exercise_id: String,
              name: String,

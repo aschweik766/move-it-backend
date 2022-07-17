@@ -1,5 +1,5 @@
 
-const mongoose = require('/Users/aschweikhard/Desktop/general-assembly/project4/move-it-backend/Database/connection')
+const mongoose = require('../../config/Database/connection')
 const ExerciseSchema = new mongoose.Schema(
     {
         name: String,
