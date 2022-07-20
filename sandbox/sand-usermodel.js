@@ -5,8 +5,12 @@ const UsersSchema = new mongoose.Schema(
     {
         email: String,
         googleId: String,
-        first_name: String,
-        last_name: String,
+        userProfile: {
+            type: mongoose.Schema.Types.ObjectId, ref: "Profile"},
+        name: {
+            type: String,
+            required: [true, 'name cannot be empty']
+        },
         favoritedEx: {
              exercise_id: String,
              name: String,

@@ -15,6 +15,7 @@ router.get("/login/success", (req, res) => {
 	}
 });
 
+
 router.get("/login/failed", (req, res) => {
 	res.status(401).json({
 		error: true,
@@ -30,8 +31,8 @@ router.get('/google',
   // Google OAuth callback route
 router.get('/google/oauth2callback', 
     passport.authenticate('google', {
-      successRedirect: '/profiles',
-      failureRedirect: '/login/failed',
+      successRedirect: process.env.CLIENT_URL,
+      failureRedirect: '/logi/failed',
     })
   )
 
@@ -39,7 +40,7 @@ router.get('/google/oauth2callback',
 router.get('/logout', function (req, res, next) {
     req.logout(function(err) {
       if (err) { return next(err)}
-      res.redirect('/profiles')
+      res.redirect(process.env.CLIENT_URL)
     })
   })
 
