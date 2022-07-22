@@ -1,4 +1,4 @@
-require('dotenv').config;
+const dot = require('dotenv').config()
 const PORT = process.env.PORT || 3001
 
 const cookieSession = require("cookie-session");
@@ -12,7 +12,7 @@ const passport = require("passport");
 
 const exerciseController = require('./Routes/exercise-router')
 const authController = require("./routes/auth");
-const auth = require('./sandbox/Controller/Routes/authenticate');
+
 
 
 app.use(
