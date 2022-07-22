@@ -10,7 +10,7 @@ const passportSetup = require("./passport");
 const passport = require("passport");
 
 
-const exerciseController = require('./Routes/exercise-router')
+const exerciseController = require('./routes/exercise-router')
 const authController = require("./routes/auth");
 
 
@@ -35,7 +35,17 @@ app.use(
 );
 
 app.use("/auth", authController);
-app.use("/auth", exerciseController)
+app.use("/ex", exerciseController)
+
+
+
+app.get('/favicon.ico', (req, res) => {
+  res.send('favicon found');
+})
+
+app.get('/', (req, res) => {
+  res.send('hello world')
+})
 
 
 app.listen(PORT, ()=> {

@@ -1,5 +1,5 @@
 
-const mongoose = require('../../Database/connection')
+const mongoose = require('../../database/connection')
 const ExerciseSchema = new mongoose.Schema(
     {
         name: String,
