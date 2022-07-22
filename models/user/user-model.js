@@ -1,5 +1,5 @@
 const { mongo } = require('mongoose')
-const mongoose = require('../../config/Database/connection')
+const mongoose = require('../../Database/connection')
 
 const UsersSchema = new mongoose.Schema(
     {
