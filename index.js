@@ -8,7 +8,7 @@ const cors = require("cors");
 const methodOverride = require('method-override')
 const passportSetup = require("./passport");
 const passport = require("passport");
-
+  
 
 const exerciseController = require('./routes/exercise-router')
 const authController = require("./routes/auth");
