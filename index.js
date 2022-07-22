@@ -1,6 +1,8 @@
 const dot = require('dotenv').config()
 const PORT = process.env.PORT || 3001
 
+//updated tree structure//
+
 const cookieSession = require("cookie-session");
 const express = require("express");
 const app = express();
