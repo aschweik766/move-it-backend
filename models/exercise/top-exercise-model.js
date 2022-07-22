@@ -1,6 +1,5 @@
 
-const mongoose = require('/Users/aschweikhard/Desktop/general-assembly/project4/move-it-backend/Database/connection')
-
+const mongoose = require('../../database/connection')
 const ExerciseSchema = new mongoose.Schema(
     {
         name: String,
@@ -14,6 +13,7 @@ const ExerciseSchema = new mongoose.Schema(
     { timestamps: true}
 )
 
+ExerciseSchema.index({ name: 'text', "joint": 'text'});
 const Exercise = mongoose.model('Exercise', ExerciseSchema);
 
 module.exports = Exercise
