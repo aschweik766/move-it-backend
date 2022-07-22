@@ -1,0 +1,236 @@
+[
+    {
+        "name": "clamshells",
+        "joint": ["hip", "knee"],
+        "muscleGroup": ["glute", "core"],
+        "position": "side-lying",
+        "equipment": [null],
+        "url": "https://www.youtube.com/embed/PoDA3Tf3SXQ",
+        "image": null,
+        "description": "Begin laying on side with your knees bent and your feet together. Rotate top hip slightly forward while keeping hips stable, lift knee towards ceiling by tightening your glutes."
+    },
+    {
+        "name": "clamshells on wall",
+        "joint": ["hip", "knee"],
+        "muscleGroup": ["glute", "core"],
+        "equipment": [null],
+        "position": "side-lying",
+        "url": "https://www.youtube.com/embed/VSW02_KByuc",
+        "image": null,
+        "description": "Begin laying on side against the wall with your knees bent and with your feet, hips, shoulders, and head touching the wall. Rotate your top hip slightly forward to bring your hip off of the wall. While keeping hips stable, lift your top knee towards the ceiling by tightening your glute. If you feel your hip touch the wall again, this indicates that your hips were not stable during the exercise."
+
+    },
+    {
+        "name": "bridge elbows extended",
+        "joint": ["hip", "knee"],
+        "muscleGroup": ["glute", "core", "hamstring"],
+        "equipment": [null],
+        "position": "hook-lying",
+        "url": "https://www.youtube.com/embed/Tdnfl825tgM",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent with your arms extended and palms down. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+
+    },
+    {
+        "name": "bridge elbows bent",
+        "joint": ["hip", "knee"],
+        "muscleGroup": ["glute", "core"],
+        "equipment": [null],
+        "position": "side-lying",
+        "url": "https://www.youtube.com/embed/62ZWem7Mk34",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and with your elbows bent at your sides. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+
+    },
+    {
+        "name": "bridge arms crossed",
+        "joint": ["hip", "knee"],
+        "muscleGroup": ["glute", "core", "hamstring"],
+        "equipment": [null],
+        "position": "hook-lying",
+        "url": "https://www.youtube.com/embed/F8oP06gu08w",
+        "image": null,
+        "description": "Begin laying on your back with your knees bent and cross your arms across your chest. Tighten your glutes and your hamstrings to lift your hips. Tighten your core to keep your hips stable while you lift and lower your hips."
+    },
+    {
+        "name": "radial nerve glide wrist bias",
+        "joint": ["wrist"],
+        "muscleGroup": ["brachial plexus"],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://www.youtube.com/embed/-4Updi3GUKI",
+        "image": null,
+        "description": "Arm extended palm facing back while keeping shoulder blade down, move gently from your wrist back and forth feeling stretch along front side of arm. Hold for 1 second, then relax. Be careful not to overstretch."
+    },
+    {
+        "name": "radial nerve glide elbow bias",
+        "joint": ["elbow"],
+        "muscleGroup": ["brachial plexus"],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://www.youtube.com/embed/H2t_Ak1pBeg",
+        "image": null,
+        "description": "With your arm extended, palm facing back, wrist flexed with fingers back, and keeping shoulder blade down. Move gently from your elbow back and forth feeling stretch along front side of arm. Hold for 1 second, then relax. Be careful not to overstretch."
+    },
+    {
+        "name": "radial nerve glide shoulder bias",
+        "joint": ["shoulder"],
+        "muscleGroup": ["brachial plexus"],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://www.youtube.com/embed/FGvaIDUofHk",
+        "image": null,
+        "description": "with your arm extended, palm facing back, wrist flexed with fingers back, and keeping shoulder blade down. Move gently from your shoulder, lifting up and down to feel the stretch along front side of your arm. Hold for 1 second, then relax. Be careful not to overstretch."
+    }, 
+    {
+        "name": "radial nerve glide cervical bias",
+        "joint": ["neck"],
+        "muscleGroup": ["cervical", "brachial plexus"],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://www.youtube.com/embed/zbokLLLjIo0",
+        "image": null,
+        "description": "with your arm extended, palm facing back, wrist flexed with fingers back, and keeping shoulder blade down. Move gently from your neck, bending head away and then back to neutral, feeling stretch along front side of arm. Hold for 1 second, then relax. Be careful not to overstretch."
+    }, 
+    {
+        "name": "median nerve glide wrist bias",
+        "joint": ["wrist"],
+        "muscleGroup": ["brachial plexus"],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://www.youtube.com/embed/w0UtpRYEgK0",
+        "image": null,
+        "description": "Arm extended palm facing forward while keeping shoulder blade down, move gently from your wrist back and forth feeling stretch along front side of arm. Hold for 1 second, then relax. Be careful not to overstretch."
+    }, 
+    {
+        "name": "median nerve glide elbow bias",
+        "joint": ["elbow"],
+        "muscleGroup": ["brachial plexus"],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://www.youtube.com/embed/i-2yDvItiBk",
+        "image": null,
+        "description": "With your arm extended, palm facing forward, wrist extended with fingers back, and keeping shoulder blade down. Move gently from your elbow back and forth feeling stretch along front side of arm. Hold for 1 second, then relax. Be careful not to overstretch."
+    }, 
+    {
+        "name": "median nerve glide shoulder bias",
+        "joint": ["shoulder"],
+        "muscleGroup": ["brachial plexus"],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://www.youtube.com/embed/nBjgUXx9e44",
+        "image": null,
+        "description": "with your arm extended, palm facing forward, wrist extended with fingers back, and keeping shoulder blade down. Move gently from your shoulder, lifting up and down to feel the stretch along front side of your arm. Hold for 1 second, then relax. Be careful not to overstretch."
+    }, 
+    {
+        "name": "median nerve glide cervical bias",
+        "joint": ["neck"],
+        "muscleGroup": ["cervical", "brachial plexus"],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://www.youtube.com/embed/7ho8SD_UeMo",
+        "image": null,
+        "description": "With your arm extended, palm facing forward, wrist extended with fingers back, and keeping shoulder blade down. Move gently from your neck, bending head away and then back to neutral, feeling stretch along front side of arm. Hold for 1 second, then relax. Be careful not to overstretch."
+    }, 
+    {
+        "name": "ulnar nerve glide wrist bias",
+        "joint": ["wrist"],
+        "muscleGroup": ["brachial plexus"],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://www.youtube.com/embed/_K-JGGeoHZk",
+        "image": null,
+        "description": "Arm raised to the side with elbow bent to 90 degrees and palm flat (similar to a waiter holding a tray) while keeping shoulder blade down, move gently from your wrist back and forth (waiter holding a tray, to walking like an egyptian) feeling stretch along back side of arm. Hold for 1 second, then relax. Be careful not to overstretch."
+    }, 
+    {
+        "name": "ulnar nerve glide elbow bias",
+        "joint": ["elbow"],
+        "muscleGroup": ["brachial plexus"],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://www.youtube.com/embed/LlGMROzfP4A",
+        "image": null,
+        "description": "Arm raised to the side with elbow bent to 90 degrees and palm flat (similar to a waiter holding a tray) while keeping shoulder blade down, move gently from your elbow back and forth, feeling stretch along back side of arm. Hold for 1 second, then relax. Be careful not to overstretch."
+    }, 
+    {
+        "name": "ulnar nerve glide shoulder bias",
+        "joint": ["shoulder"],
+        "muscleGroup": ["brachial plexus"],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://www.youtube.com/embed/wGeZiQRvLTI",
+        "image": null,
+        "description": "Arm raised to the side with elbow bent to 90 degrees and palm flat (similar to a waiter holding a tray) while keeping shoulder blade down, move gently from your shoulder, up and down, feeling stretch along back side of arm. Hold for 1 second, then relax. Be careful not to overstretch."
+    },
+    {
+        "name": "ulnar nerve glide cervical bias",
+        "joint": ["neck"],
+        "muscleGroup": ["cervical", "brachial plexus"],
+        "equipment": [null],
+        "position": "seated",
+        "url": "https://www.youtube.com/embed/UyzvkeIjRiY",
+        "image": null,
+        "description": "Arm raised to the side with elbow bent to 90 degrees and palm flat (similar to a waiter holding a tray) while keeping shoulder blade down, move gently from your neck, bending away and then returning back to neutral, feeling stretch along back side of arm and side of neck. Hold for 1 second, then relax. Be careful not to overstretch."
+    },
+    {
+        "name": "sciatic nerve glide ankle bias",
+        "joint": ["ankle, hip"],
+        "muscleGroup": ["back"],
+        "equipment": [null],
+        "position": "supine",
+        "url": "https://www.youtube.com/embed/ELfEnLaXevE",
+        "image": null,
+        "description": "Lie on your back and lift the leg to be stretched so that the hip is bent to 90 degrees, grasp the back of the thigh with both hands.  Slowly straighten the knee until you feel a deep stretch along the back of your leg, making sure to keep the ankle relaxed.  Once you feel the stretch, begin moving from your ankle, by bending the ankle toward you and then pointing toward the ceiling. Hold for 1 second, then relax. Be careful not to overstretch."
+    },
+    {
+        "name": "sciatic nerve glide knee bias",
+        "joint": ["knee, ankle, hip"],
+        "muscleGroup": ["back"],
+        "equipment": [null],
+        "position": "supine",
+        "url": "https://www.youtube.com/embed/UeKeqaHun_8",
+        "image": null,
+        "description": "Lie on your back and lift the leg to be stretched so that the hip is bent to 90 degrees, grasp the back of the thigh with both hands.  Pull your toes up towards you. Keeping toes pulled up, slowly straighten the knee until you feel a deep stretch along the back of your leg, hold for 1 second, then bend knee. Be careful not to overstretch. Hold for 1 second, then relax."
+    },
+    {
+        "name": "sciatic nerve glide hip bias",
+        "joint": ["ankle", "hip"],
+        "muscleGroup": ["back"],
+        "equipment": ["strap"],
+        "position": "seated",
+        "url": "https://www.youtube.com/embed/UTWt_uHxskM",
+        "image": null,
+        "description": "Lie on your back and place belt or stap on the foot of the leg to be stretched. Pull your toes up towards you. Keeping toes pulled up, slowly lift the leg until you feel a deep stretch along the back of your leg, hold for 1 second, then lower your leg. Be careful not to overstretch. Hold for 1 second, then relax."
+    },
+    {
+        "name": "Psoas stretch standing",
+        "joint":["hip, back"],
+        "muscleGroup": ["Psoas"],
+        "equipment": [null],
+        "position": "standing",
+        "url": "https://www.youtube.com/embed/TYutEjg2_Tc",
+        "image": null,
+        "description": "Stand with one foot in front of the other with your toes pointed forward. Engage your lower abdominal muscles to tuck your tailbone under. You will feel a stretch in the front of your hip on your stance leg. To feel a deeper stretch, lean your shoulders back and then to the side (if left leg is forward, lean shoulders back and then to the left) you will feel the stretch extend from the front of your hip to behind your belly button."
+    },
+    {
+        "name": "Psoas stretch one step",
+        "joint": ["hip, back"],
+        "muscleGroup": ["Psoas"],
+        "equipment": ["chair"],
+        "position": "step",
+        "url": "https://www.youtube.com/embed/MQFPE7FAGik",
+        "image": null,
+        "description": "Stand with one foot on an elevated surface like a chair or a step, and the other foot squarely beneath you with your toes pointed forward. Engage your lower abdominal muscles to tuck your tailbone under. You will feel a stretch in the front of your hip on your stance leg. To feel a deeper stretch, lean your shoulders back and then to the side (if left leg is forward, lean shoulders back and then to the left) you will feel the stretch extend from the front of your hip to behind your belly button."
+    },
+    {
+        "name": "Psoas stretch in lunge",
+        "joint": ["hip, back"],
+        "muscleGroup": ["psoas"],
+        "equipment": [null],
+        "position": "lunge",
+        "url": "https://www.youtube.com/embed/gUyR8b0BNgc",
+        "image": null,
+        "description": "Begin in lunge position with knee bent to 90degrees and with your toes pointed forward. Engage your lower abdominal muscles to tuck your tailbone under. You will feel a stretch in the front of your hip on the side that your knee is on the ground. To feel a deeper stretch, lean your shoulders back and then to the side (if left leg is forward, lean shoulders back and then to the left) you will feel the stretch extend from the front of your hip to behind your belly button."
+    }
+    
+]
