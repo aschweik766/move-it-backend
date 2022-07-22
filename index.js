@@ -36,10 +36,6 @@ app.use(
   })
 );
 
-app.use("/auth", authController);
-app.use("/ex", exerciseController)
-
-
 
 app.get('/favicon.ico', (req, res) => {
   res.send('favicon found');
@@ -48,6 +44,10 @@ app.get('/favicon.ico', (req, res) => {
 app.get('/', (req, res) => {
   res.send('hello world')
 })
+
+
+app.use("/auth", authController);
+app.use("/ex", exerciseController)
 
 
 app.listen(PORT, ()=> {
