@@ -1,0 +1,20 @@
+[
+    { 
+        "googleId": null,
+        "email": null,
+        "Profile": {
+            "type": "Profile"
+        },
+        "name": null,
+        "favoritedEx": {
+             "exercise_id": null,
+             "name": null,
+             "joint": [null],
+             "equipment": [null],
+             "muscleGroup": [null],
+             "position": null,
+             "image": "null",
+             "url": "null"
+        }
+    }
+]
