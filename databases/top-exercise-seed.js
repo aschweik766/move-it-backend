@@ -1,5 +1,5 @@
 const Exercise = require('../models/exercise/top-exercise-model');
-const newSeedData = require('../Database/top-exercise.json')
+const newSeedData = require('../databases/top-exercise.json')
     console.log(newSeedData);
 
 

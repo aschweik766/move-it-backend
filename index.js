@@ -12,8 +12,8 @@ const passportSetup = require("./passport");
 const passport = require("passport");
   
 
-const exerciseController = require('../move-it-backend/Routes/exercise-router')
-const authController = require("../move-it-backend/Routes/auth");
+const exerciseController = require('./routers/exercise-router')
+const authController = require("./routers/auth");
 
 
 
