@@ -12,8 +12,8 @@ const passportSetup = require("./passport");
 const passport = require("passport");
   
 
-const exerciseController = require('../move-it-backend/routes/exercise-router')
-const authController = require("../move-it-backend/routes/auth");
+const exerciseController = require('../move-it-backend/Routes/exercise-router')
+const authController = require("../move-it-backend/Routes/auth");
 
 
 
@@ -37,13 +37,13 @@ app.use(
 );
 
 
-app.get('/favicon.ico', (req, res) => {
-  res.send('favicon found');
-})
+// app.get('/favicon.ico', (req, res) => {
+//   res.send('favicon found');
+// })
 
-app.get('/', (req, res) => {
-  res.send('hello world')
-})
+// app.get('/', (req, res) => {
+//   res.send('hello world')
+// })
 
 
 app.use("/auth", authController);
