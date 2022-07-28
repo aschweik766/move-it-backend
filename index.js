@@ -41,9 +41,9 @@ app.use(
 //   res.send('favicon found');
 // })
 
-// app.get('/', (req, res) => {
-//   res.send('hello world')
-// })
+app.get('/', (req, res) => {
+  res.send('hello welcome to move-it backend')
+})
 
 
 app.use("/auth", authController);
