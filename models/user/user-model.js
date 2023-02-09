@@ -1,26 +1,49 @@
-const { mongo } = require('mongoose')
-const mongoose = require('../../Database/connection')
+const mongoose = require('../../databases/connection.js')
 
-const UsersSchema = new mongoose.Schema(
-    {
-        email: String,
-        googleId: String,
-        first_name: String,
-        last_name: String,
-        favoritedEx: {
-             exercise_id: String,
-             name: String,
-             joint: [String],
-             equipment: [String],
-             muscleGroup: [String],
-             position: String,
-             image: String,
-             url: String,
-        },
-    }, 
-    { timestamps: true}
-)
+const bcrypt = require('bcrypt');
 
-const Users = mongoose.model('User', UsersSchema);
+const userSchema = new mongoose.Schema({
+    email: {
+        type: String,
+        required: [true, "Email is Required"],
+        unique: true,
+    },
+    password: {
+        type: String,
+        required: [true, "Password is Required"],
+    },
+    favoritedEx: {
+        exercise_id: String,
+        name: String,
+        joint: [String],
+        equipment: [String],
+        muscleGroup: [String],
+        position: String,
+        image: String,
+        url: String,
+    },
+},
+    { timestamps: true }
+);
+
+userSchema.pre("save", async function (next) {
+  const salt = await bcrypt.genSalt();
+  this.password = await bcrypt.hash(this.password, salt);
+  next();
+});
+
+userSchema.statics.login = async function (email, password) {
+  const user = await this.findOne({ email });
+  if (user) {
+    const auth = await bcrypt.compare(password, user.password);
+    if (auth) {
+      return user;
+    }
+    throw Error("incorrect password");
+  }
+  throw Error("incorrect email");
+};
+
+const Users = mongoose.model('Users', userSchema);
 
 module.exports = Users

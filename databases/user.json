@@ -1,11 +1,14 @@
 [
     { 
-        "googleId": null,
-        "email": null,
-        "Profile": {
-            "type": "Profile"
+        "email": {
+            "type": null,
+            "required": [true, "Email is Required"],
+            "unique": true
         },
-        "name": null,
+        "password": {
+            "type": null,
+            "required": [true, "Password is Required"]
+        },
         "favoritedEx": {
              "exercise_id": null,
              "name": null,
@@ -13,8 +16,8 @@
              "equipment": [null],
              "muscleGroup": [null],
              "position": null,
-             "image": "null",
-             "url": "null"
+             "image": null,
+             "url": null
         }
     }
 ]

@@ -1,25 +1,46 @@
-const express = require('express')
-const res = require('express/lib/response')
 const Exercise = require('../models/exercise/top-exercise-model')
-const router = express.Router()
 
 
 
-router.get("/exercises/", (req, res) => {
-    const results = Exercise.find({})
-    results.then((data) => { res.send(data) })
+// router.get("/exercises/", (req, res) => {
+//     const results = Exercise.find({})
+//     results.then((data) => { res.send(data) })
    
-})
+// })
 
 
-router.get('/exercises/:id', (req, res) => {
-    const results = Exercise.findById({_id: req.params.id})
-    results.then((data) => {
-        res.send(data)
-    })
-})
+module.exports.fetchAll = async (req, res, next) => {
+    try {
+        const results = Exercise.find({})
+        results.then((data) => { res.send(data) })
+    } catch (err) {
+      console.log(err);
+      res.json({ err, created: false });
+    }
+};
 
-module.exports = router
+
+// router.get('/exercises/:id', (req, res) => {
+//     const results = Exercise.findById({_id: req.params.id})
+//     results.then((data) => {
+//         res.send(data)
+//     })
+// })
+
+
+module.exports.selectOne = async (req, res, next) => {
+    try {
+        const results = await Exercise.findById({_id: req.params.id})
+        results.then((data) => {
+            res.send(data)
+        })
+    } catch (err) {
+      console.log(err);
+      res.json({ err, created: false });
+    }
+};
+
+// module.exports = router
 
 
 
