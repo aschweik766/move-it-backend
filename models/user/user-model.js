@@ -12,6 +12,10 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: [true, "Password is Required"],
     },
+    firstName: String,
+    lastName: String,
+    profileAvatar: String,
+    id: String,
     favoritedEx: {
         exercise_id: String,
         name: String,

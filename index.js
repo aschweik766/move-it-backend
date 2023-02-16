@@ -8,8 +8,9 @@ const methodOverride = require('method-override')
 const cookieParser = require('cookie-parser')
   
 
-const exerciseRoutes = require('./routes/exercises.js')
-const authRoutes = require("./routes/auth.js");
+const exerciseRoutes = require('./routes/exercises.js');
+// const authRoutes = require("./routes/auth.js");
+const authRoutes2 = require("./routes/auth2.js");
 
 app.use(cookieParser());
 app.use(express.json())
@@ -29,8 +30,8 @@ app.get('/', (req, res) => {
   res.send('hello welcome to move-it backend')
 })
 
-
-app.use("/auth", authRoutes);
+app.use("/auth", authRoutes2)
+// app.use("/auth", authRoutes);
 app.use("/ex", exerciseRoutes)
 
 

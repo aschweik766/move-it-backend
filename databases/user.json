@@ -9,6 +9,10 @@
             "type": null,
             "required": [true, "Password is Required"]
         },
+        "firstName": null,
+        "lastName": null,
+        "profileAvatar": null,
+        "id": null,
         "favoritedEx": {
              "exercise_id": null,
              "name": null,
